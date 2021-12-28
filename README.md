@@ -194,6 +194,7 @@ source: https://www.vaultproject.io/docs/commands
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
 If you would like to add more secrets:
+<br>
 [Please read and follow our Contributing guide](todo)
 
 Thanks! 🦄
