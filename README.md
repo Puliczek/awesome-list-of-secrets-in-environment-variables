@@ -198,7 +198,7 @@ source: https://www.vaultproject.io/docs/commands
 
 If you would like to add more secrets:
 <br>
-[Please read and follow our Contributing guide](todo)
+[Please read and follow our Contributing guide](https://github.com/Puliczek/awesome-list-of-secrets-in-environment-variables/blob/main/CONTRIBUTING.md)
 
 Thanks! 🦄
 

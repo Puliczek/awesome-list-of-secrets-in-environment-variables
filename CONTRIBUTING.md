@@ -27,6 +27,9 @@ source: [https://EXAMPLE_DOCUMENTATION_LINK.com](https://EXAMPLE_DOCUMENTATION_L
 
 ### Please remember add only **popular services and secrets** (token, passwords, logins, api key... )
 
+<br><br>
+If you don't want to PR/commit, you can [add new issue to project](https://github.com/Puliczek/awesome-list-of-secrets-in-environment-variables/issues/new) to share extra secrets.
+
 
 <br>
 Thanks,
