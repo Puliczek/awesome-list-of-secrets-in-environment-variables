@@ -102,7 +102,7 @@ source: https://github.com/phatblat/fastlane-variables
 source: https://cli.github.com/manual/gh_help_environment 
 ## Google Cloud
 - GOOGLE_APPLICATION_CREDENTIALS
-- GOOGLE_API_KEY​
+- GOOGLE_API_KEY
   
 source: https://cloud.google.com/docs/authentication/getting-started#windows
 
@@ -193,6 +193,14 @@ source: https://www.vaultproject.io/docs/commands
 # Y
 # Z
 
+## Get RAW list:
+
+1. Get raw README.md: https://raw.githubusercontent.com/Puliczek/awesome-list-of-secrets-in-environment-variables/main/README.md
+2. Copy to 'text' in https://onlinetexttools.com/filter-text
+3. Use a Regular Expresision: <br>
+   ^-\s(\w*)\s*$
+4. It's done 😉
+   
 # 😎 Contributing
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
