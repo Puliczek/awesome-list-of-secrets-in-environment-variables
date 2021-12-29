@@ -29,6 +29,9 @@ Some of practices to avoid leak of secrets stored in environment variables is to
 - Encrypt values inside environment variable
 - Use diffrent way to store secrets 🤓
 
+![Environment variables](https://user-images.githubusercontent.com/12344862/147656611-8726c036-128b-4ad4-a19b-c019c2d6b1ea.png)
+
+
 You can check your system environment variables:
 - Windows execute in PowerShell: `dir env:`
 - Linux/MacOS execute in terminal: `printenv` or `env`
