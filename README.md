@@ -27,7 +27,7 @@ Some of practices to avoid leak of secrets stored in environment variables is to
 - Block/notify on WAF when the request includes system environment variables
 - Store in system environment variable path to a config file, instead of clean value
 - Encrypt values inside environment variable
-- Use diffrent way to store secrets 🤓
+- Use different way to store secrets 🤓
 
 ![Environment variables](https://user-images.githubusercontent.com/12344862/147656611-8726c036-128b-4ad4-a19b-c019c2d6b1ea.png)
 
@@ -206,7 +206,9 @@ Thanks! 🦄
 
 - [Stackoverflow - Is it secure to store passwords as environment variables (rather than as plain text) in config files?](https://stackoverflow.com/questions/12461484/is-it-secure-to-store-passwords-as-environment-variables-rather-than-as-plain-t)
 - [Google - Best practices for securely using API keys](https://support.google.com/googleapi/answer/6310037?hl=en)
-
+- [An Introduction to Environment Variables and How to Use Them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
+- [Why you shouldn't use ENV variables for secret data](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/)
+- [The Triumph and Tragedy of .env Files](https://blog.doppler.com/the-triumph-and-tragedy-of-env-files)
 
 # 🤝 Show your support
 
