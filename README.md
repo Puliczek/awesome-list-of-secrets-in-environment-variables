@@ -139,6 +139,10 @@ https://docs.mongodb.com/mongocli/stable/configure/environment-variables/
 source: https://docs.npmjs.com/using-private-packages-in-a-ci-cd-workflow
 
 # O
+## OpenStack command-line client
+- OS_PASSWORD
+
+source: [https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html](https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html)
 # P
 ## Percy.io
 - PERCY_TOKEN
