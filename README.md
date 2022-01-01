@@ -51,8 +51,12 @@ source: https://docs.aws.amazon.com/sdkref/latest/guide/setting-global-aws_secre
 - AZURE_CLIENT_SECRET
 - AZURE_USERNAME
 - AZURE_PASSWORD
+- MSI_ENDPOINT
+- MSI_SECRET
   
 source: https://docs.microsoft.com/en-us/dotnet/api/azure.identity.environmentcredential?view=azure-dotnet
+<br>
+source: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/understanding-azure-msi-managed-service-identity-tokens-caching/ba-p/337406
 # B
 ## Binance
 - binance_api
