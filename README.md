@@ -189,6 +189,13 @@ Source: https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.htm
 - CONSUMER_SECRET
 
 source: https://developer.twitter.com/en/docs/authentication/guides/authentication-best-practices
+
+## Travis Ci
+- TRAVIS_SUDO
+- TRAVIS_OS_NAME
+- TRAVIS_SECURE_ENV_VARS
+
+source: https://docs.travis-ci.com/user/environment-variables
 # U
 # V
 ## Vault HashiCorp
@@ -196,6 +203,13 @@ source: https://developer.twitter.com/en/docs/authentication/guides/authenticati
 - VAULT_CLIENT_KEY
   
 source: https://www.vaultproject.io/docs/commands
+
+## Vultr
+- TOKEN
+- VULTR_ACCESS
+- VULTR_SECRET
+
+source: https://www.vultr.com/docs/deploying-javascript-unikernels-to-vultr-with-ops
 # W
 # X
 # Y
