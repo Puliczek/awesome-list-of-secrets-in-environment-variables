@@ -1,0 +1,37 @@
+# This is a workflow to generate raw_list.txt based on README.md
+
+name: UpdateRawList
+
+on:
+  # Triggers the workflow on push request events but only for the main branch
+  push:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        
+      - name: Run command in terminal # Run command to get text from README and create raw_list.txt
+        run: |
+          printf '%b\n' "$(sed -n '/^-\s*\w*.$/p' README.md | sed -r 's/^.{2}//')" > raw_list.txt    
+    
+      - name: Commit files # commit the output folder
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add raw_list.txt
+          git commit -m "[BOT] Auto update raw_list.txt"
+          
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
