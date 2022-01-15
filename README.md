@@ -1,4 +1,8 @@
-**🤝 Show your support - give a ⭐️ if you liked the content**
+<div align="center" >🤝 Show your support - give a ⭐️ if you liked the content | <a target="_blank" href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FPuliczek%2Fawesome-list-of-secrets-in-environment-variables&via=pulik_io&text=Awesome%20list%20of%20secrets%20in%20environment%20variables'>SHARE on Twitter</a>
+| Follow me on
+ <a target="_blank" href='https://twitter.com/pulik_io'><img src='https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat&logo=twitter&logoColor=white'/></a>
+ <a target="_blank" href='https://www.youtube.com/channel/UCaAdOBH2hnqLvEri1M7eg5Q'><img src='https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat&logo=youtube&logoColor=white'/></a>
+</div>
 
 ---
 
@@ -215,13 +219,13 @@ source: https://www.vultr.com/docs/deploying-javascript-unikernels-to-vultr-with
 # Y
 # Z
 
-## Get RAW list:
+## Get a RAW list:
 
-1. Get raw README.md: https://raw.githubusercontent.com/Puliczek/awesome-list-of-secrets-in-environment-variables/main/README.md
-2. Copy to 'text' in https://onlinetexttools.com/filter-text
-3. Use a Regular Expresision: <br>
-   ^-\s(\w*)\s*$
-4. It's done 😉
+The repository includes the raw list:
+
+[raw_list.txt](https://github.com/Puliczek/awesome-list-of-secrets-in-environment-variables/blob/main/raw_list.txt)
+
+It is auto-generated from README.md by GitHub action.
    
 # 😎 Contributing
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
@@ -242,7 +246,11 @@ Thanks! 🦄
 
 # 🤝 Show your support
 
-**Give a ⭐️ if you liked the content**
+<div>🤝 Show your support - give a ⭐️ if you liked the content | <a target="_blank" href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FPuliczek%2Fawesome-list-of-secrets-in-environment-variables&via=pulik_io&text=Awesome%20list%20of%20secrets%20in%20environment%20variables'>SHARE on Twitter</a>
+| Follow me on
+ <a target="_blank" href='https://twitter.com/pulik_io'><img src='https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat&logo=twitter&logoColor=white'/></a>
+ <a target="_blank" href='https://www.youtube.com/channel/UCaAdOBH2hnqLvEri1M7eg5Q'><img src='https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat&logo=youtube&logoColor=white'/></a>
+</div>
 
 # ✔️ Disclaimer
 This project can only be used for educational purposes. Using this software against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
