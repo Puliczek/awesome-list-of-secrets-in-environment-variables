@@ -210,16 +210,14 @@ source: https://docs.npmjs.com/using-private-packages-in-a-ci-cd-workflow
 - OKTA_AUTHN_GROUPID
 
 source: https://developer.okta.com/okta-sdk-java/apidocs/com/okta/sdk/client/ClientBuilder.html
-## OpenStack command-line client
-- OS_PASSWORD
-
-source: [https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html](https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html)
-
-# Oracle OpenStack
+## Oracle OpenStack command-line client
 - OS_USERNAME
 - OS_PASSWORD
 
+source: [https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html](https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html)
+<br>
 source: https://docs.oracle.com/cd/E78305_01/E78304/html/openstack-envars.html
+
 # P
 ## Percy.io
 - PERCY_TOKEN
