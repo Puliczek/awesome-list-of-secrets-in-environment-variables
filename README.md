@@ -48,8 +48,13 @@ You can check your system environment variables:
 - AWS_SECRET_ACCESS_KEY
 - AMAZON_AWS_ACCESS_KEY_ID
 - AMAZON_AWS_SECRET_ACCESS_KEY
-  
+
 source: https://docs.aws.amazon.com/sdkref/latest/guide/setting-global-aws_secret_access_key.html
+
+## Algolia
+- ALGOLIA_API_KEY
+
+source: https://www.algolia.com/doc/framework-integration/symfony/getting-started/installation/?client=php
 ## Azure
 - AZURE_CLIENT_ID
 - AZURE_CLIENT_SECRET
@@ -74,6 +79,22 @@ source: https://algotrading101.com/learn/binance-python-api-guide/
 
 source: https://github.com/TeamWertarbyte/crypto-trading-bot/blob/development/README.md
 # C
+## Cloud Foundry
+- CF_PASSWORD
+- CF_USERNAME
+
+source: https://cli.cloudfoundry.org/en-US/v6/auth.html
+
+## Code Climate
+- CODECLIMATE_REPO_TOKEN
+
+source: https://docs.codeclimate.com/docs/command-line-interface
+
+## Coveralls
+- COVERALLS_REPO_TOKEN
+
+source: https://docs.coveralls.io/supported-ci-services
+
 ## CircleCI
 - CIRCLE_TOKEN
 
@@ -84,6 +105,12 @@ source: https://circleci.com/docs/2.0/api-developers-guide/
   
 source: https://github.com/digitalocean/doctl#authenticating-with-digitalocean
 
+## Dockerhub
+- DOCKER_EMAIL
+- DOCKER_PASSWORD
+- DOCKER_USERNAME
+
+source: https://github.com/marketplace/actions/publish-docker
 ## Dockerhub
 - DOCKERHUB_PASSWORD
 
@@ -99,6 +126,15 @@ source: https://github.com/phatblat/fastlane-variables
 - FACEBOOK_APP_SECRET
 - FACEBOOK_ACCESS_TOKEN
 
+## Firebase
+- FIREBASE_TOKEN
+
+source: https://firebase.google.com/docs/cli
+
+## Fossa
+- FOSSA_API_KEY
+
+source: https://docs.fossa.com/docs/api-reference
 
 # G
 ## Github
@@ -108,6 +144,13 @@ source: https://github.com/phatblat/fastlane-variables
 - GITHUB_ENTERPRISE_TOKEN 
 
 source: https://cli.github.com/manual/gh_help_environment 
+
+## Gitlab
+- CI_DEPLOY_PASSWORD
+- CI_DEPLOY_USER
+
+source: https://docs.gitlab.com/ee/user/project/deploy_tokens/
+
 ## Google Cloud
 - GOOGLE_APPLICATION_CREDENTIALS
 - GOOGLE_API_KEY
@@ -124,6 +167,12 @@ source: https://cloud.google.com/docs/authentication/getting-started#windows
 
 source: https://docs.gitlab.com/ee/ci/variables/predefined_variables.html
 # H
+
+## Heroku
+- HEROKU_API_KEY
+- HEROKU_API_USER
+
+source: https://devcenter.heroku.com/articles/authentication
 # I
 # J
 # K
@@ -141,16 +190,36 @@ source: https://www.pulumi.com/registry/packages/mailgun/installation-configurat
 https://docs.mongodb.com/mongocli/stable/configure/environment-variables/
 # N
 
+## NGROK
+- NGROK_TOKEN
+- NGROK_AUTH_TOKEN
+
+source: -
 ## NPM
 - NPM_TOKEN 
+- NPM_AUTH_TOKEN
 
 source: https://docs.npmjs.com/using-private-packages-in-a-ci-cd-workflow
 
 # O
+## OKTA
+- OKTA_CLIENT_ORGURL
+- OKTA_CLIENT_TOKEN
+- OKTA_OAUTH2_CLIENTSECRET
+- OKTA_OAUTH2_CLIENTID
+- OKTA_AUTHN_GROUPID
+
+source: https://developer.okta.com/okta-sdk-java/apidocs/com/okta/sdk/client/ClientBuilder.html
 ## OpenStack command-line client
 - OS_PASSWORD
 
 source: [https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html](https://docs.openstack.org/ocata/user-guide/common/cli-set-environment-variables-using-openstack-rc.html)
+
+# Oracle OpenStack
+- OS_USERNAME
+- OS_PASSWORD
+
+source: https://docs.oracle.com/cd/E78305_01/E78304/html/openstack-envars.html
 # P
 ## Percy.io
 - PERCY_TOKEN
@@ -159,6 +228,12 @@ source: https://docs.percy.io/docs/environment-variables
 # Q
 # R
 # S
+## Sauce Labs
+- SAUCE_ACCESS_KEY
+- SAUCE_USERNAME
+
+source: https://docs.saucelabs.com/basics/environment-variables/
+
 ## Sentry
 - SENTRY_AUTH_TOKEN
 
@@ -180,6 +255,12 @@ source: https://www.npmjs.com/package/square/v/12.0.0?activeTab=readme
 - STRIPE_DEVICE_NAME
 
 source: https://stripe.com/docs/cli/api_keys
+
+## Surge
+- SURGE_TOKEN
+- SURGE_LOGIN
+
+source: https://surge.sh/help/integrating-with-circleci
 
 # T
 ## Twilio
