@@ -279,6 +279,10 @@ source: https://developer.twitter.com/en/docs/authentication/guides/authenticati
 - TRAVIS_SECURE_ENV_VARS
 
 source: https://docs.travis-ci.com/user/environment-variables
+
+## Telegram
+- TELEGRAM_BOT_TOKEN
+
 # U
 # V
 ## Vault HashiCorp
