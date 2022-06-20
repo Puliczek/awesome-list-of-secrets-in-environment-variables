@@ -223,6 +223,12 @@ source: https://docs.oracle.com/cd/E78305_01/E78304/html/openstack-envars.html
 - PERCY_TOKEN
 
 source: https://docs.percy.io/docs/environment-variables
+
+## PostgreSQL
+- POSTGRES_PASSWORD
+
+source: https://www.postgresql.org/docs/current/libpq-envars.html
+
 # Q
 # R
 # S
