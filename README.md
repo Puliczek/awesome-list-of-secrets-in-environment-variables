@@ -128,6 +128,7 @@ source: https://github.com/phatblat/fastlane-variables
 
 ## Firebase
 - FIREBASE_TOKEN
+- FIREBASE_API_TOKEN
 
 source: https://firebase.google.com/docs/cli
 
